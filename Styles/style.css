@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+@font-face {
+    font-family: onoff;
+    src: url(./../refs/onoff.otf);
+    }
+
+body {
+    font-family: onoff;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 150px;
+    color: crimson;
+}
+
+h2 {
+    background: none;
+    font-size: 200px;
+    color: crimson;
+}
+
+h3 {
+    font-size: 23px;
+    color: rgb(180, 175, 175);
+}
+
+
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link {
+    width: cover;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 50px;
+    color: crimson;
+    background-color: #F2F2F2;
+    border: 5px solid crimson;
+}
+
+.link:hover {
+    color: #F2F2F2;
+    background-color: crimson;
+    border-style: 5px solid rgb(180, 175, 175);
+}
+
+.game {
+    display: none;
+    background-image: url(./../Images/background.png);
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.controls {
+    background: transparent;
+}
+
+.youWin {
+    display:none;
+    align-items: center;
+    justify-content: space-evenly;
+    background: none;
+    width: 100vw;
+}
+
+.youLoose {
+    display:none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background: none;
+    width: 100vw;
+}
+
+.restart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: none;
+    height: 100vh;
+}
+
+.GIF {
+    border: 10px solid rgb(180, 175, 175);
+}
+
+.resetWin {
+    text-decoration: none;
+    background: none;
+    font-size: 50px;
+    color: crimson;
+    border: 5px solid crimson;
+}
+
+.resetLoose {
+    text-decoration: none;
+    background: none;
+    font-size: 50px;
+    color: crimson;
+    border: 5px solid crimson;
+}
+
+#myCanvas {
+    background-color: rgba(242, 242, 242, 0.8);
+    border: 5px solid rgb(180, 175, 175);
+}
